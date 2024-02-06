@@ -19,9 +19,9 @@
       
       var home_btn = new Camera({
        position: [
-           -71.060217,
-          42.382655,
-          2500// elevation in meters
+           -71.1167,
+          42.3770,
+          1000// elevation in meters
         ],
         tilt:0,
         heading: 0
@@ -101,7 +101,7 @@
     
    
    downtown.addEventListener('click', function() {
-      // reuse the default camera position already established in the homeBtn
+      // downtown Boston from Atlantic Ocean 
       view.goTo({
         target:camera3
       });
