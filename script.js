@@ -19,8 +19,8 @@
       
       var home_btn = new Camera({
        position: [
-           -71.1167,
-          42.3770,
+           -71.060217,
+          42.382655,
           800// elevation in meters
         ],
         tilt:0,
